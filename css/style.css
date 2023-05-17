@@ -1,0 +1,88 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.theme {
+    margin: 0 auto;
+    padding: 50px;
+    background-position: center;
+    background-image: url("../images/termomentr.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-color: rgb #fb4e0acd;
+    max-width: 1000px;
+    width: 100%;
+
+}
+
+.form {
+    background-color: rgba(206, 216, 54, 0.492);
+    max-width: 800px;
+    padding: 15px;
+    border: 5px solid rgb(213, 236, 8);
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.form__fieldset {
+    max-width: 500px;
+    width: 80%;
+    display: flexbox;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.form__input {
+    box-shadow: 4px 2px rgb(14, 82, 44);
+    max-width: 200px;
+    width: 100%;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.form__buttonConvert {
+    border: outset;
+    cursor: pointer;
+}
+
+.form__buttonConvert:hover {
+    border: inset;
+}
+
+.form__buttonReset {
+    border: outset;
+    cursor: pointer;
+}
+
+.form__buttonReset:hover {
+    border: inset;
+}
+
+.form__buttonReset:active {
+    border: inset;
+}
+
+.form__buttonChange {
+    border: outset;
+    cursor: pointer;
+}
+
+.form__buttonChange:hover {
+    border: inset;
+}
+
+.form__buttonChange:active {
+    border: inset;
+}
