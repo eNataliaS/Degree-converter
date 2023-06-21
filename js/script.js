@@ -27,7 +27,7 @@ buttonChange.addEventListener("click", () => {
     reset();
   } else {
     changeOption = 1;
-    label.textContent = "Convert °C  °F";
+    label.textContent = "Convert °C to °F";
     reset();
   }
 });
