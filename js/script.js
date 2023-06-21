@@ -23,11 +23,11 @@ const reset = () => {
 buttonChange.addEventListener("click", () => {
   if (changeOption === 1) {
     changeOption = 0;
-    label.textContent = "Convert °F to °C";
+    label.textContent = "Convert from °F to °C";
     reset();
   } else {
     changeOption = 1;
-    label.textContent = "Convert °C to °F";
+    label.textContent = "Convert from °C to °F";
     reset();
   }
 });
