@@ -4,6 +4,7 @@ const buttonReset = document.querySelector(".js-reset");
 const buttonChange = document.querySelector(".js-change");
 const label = document.querySelector("label");
 const form = document.querySelector(".js-form");
+const converter = document.querySelector(".js-input");
 
 let changeOption = 0;
 
@@ -33,7 +34,7 @@ buttonChange.addEventListener("click", () => {
 });
 
 buttonConvert.addEventListener("click", () => {
-  if (converter.value !== "" && converter.value !== 0) {
+  if (converter.value !== 0) {
     if (changeOption === 0) {
       result.textContent = `Temperature: ${celToFar().toFixed(2)}°F`;
     } else {
