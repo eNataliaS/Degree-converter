@@ -35,9 +35,9 @@ buttonChange.addEventListener("click", () => {
 buttonConvert.addEventListener("click", () => {
   if (converter.value !== "" && converter.value !== 0) {
     if (changeOption === 0) {
-      result.textContent = `Temperature: ${celToFar()}°F`;
+      result.textContent = `Temperature: ${celToFar().toFixed(2)}°F`;
     } else {
-      result.textContent = `Temperature: ${farToCel()}°C`;
+      result.textContent = `Temperature: ${farToCel().toFixed(2)}°C`;
     }
   } else {
     result.textContent = "You need to put value!";
